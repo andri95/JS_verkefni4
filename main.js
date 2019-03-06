@@ -204,22 +204,22 @@ function hreyfing(e){
 	if (e.keyCode == 37){
 		if(leikmadur.x > 0){
 			leikmadur.x -= leikmadur.hradi;
-		};
+		}
 	};
 	if (e.keyCode == 39){
 		if(leikmadur.x + leikmadur.staerd[0] < 600){
 			leikmadur.x += leikmadur.hradi;
-		};
+		}
 	};
 	if (e.keyCode == 40){
 		if(leikmadur.y + leikmadur.staerd[1] < 400){
 			leikmadur.y += leikmadur.hradi;
-		};
+		}
 	};
 	if (e.keyCode == 38){
 		if(leikmadur.y > 0){
 			leikmadur.y -= leikmadur.hradi;
-		};
+		}
 	};	
 
 	// Leikmaður fær aukahraða en óvinir stækka
